@@ -256,3 +256,9 @@ article .meta{font-size:14.5px;color:var(--muted);margin-bottom:18px}
   .hero.has-hero:before,.pagehead.has-hero:before{background:linear-gradient(180deg,rgba(11,27,43,.86),rgba(11,27,43,.74))}
 }
 .has-hero h1,.has-hero p,.has-hero .crumbs,.has-hero .trustrow li{text-shadow:0 1px 14px rgba(11,27,43,.55)}
+
+/* footer: all remaining service pages in one compact row */
+.site-footer .footmore{max-width:var(--wrap);margin:30px auto 0;padding:24px 24px 0;box-shadow:0 -1px 0 rgba(255,255,255,.16) inset}
+.site-footer .footmore h2{font-size:17px;margin-bottom:12px}
+.site-footer .footmore nav{display:flex;flex-wrap:wrap;gap:8px 24px}
+.site-footer .footmore a{display:inline;margin:0}
